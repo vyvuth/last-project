@@ -111,12 +111,12 @@
 
           <!--data search-->
           <div class="search container">
-            <div class=" row">
+            <div id="cart-nav" class=" row">
                <div class="col-lg-12 col-md-12 searchIcon mt-5 d-flex justify-content-around">
                  <input type="text" placeholder="Search items" class="form-control w-25">
                  <div class="shop position-relative">
                    <i class="fa-solid fa-cart-shopping fs-2 text-secondary"></i>
-                   <span class=" position-absolute top-0 text-danger fw-bold start-50">0</span>
+                   <span id="count" class=" position-absolute top-0 text-danger fw-bold start-50">0</span>
                  </div>
                </div>
             </div>
@@ -128,6 +128,23 @@
           <!--buy data json-->
           <div class="menuPage container mt-5">
                   <div id="food-container" class="row"></div>
+          </div>
+          <!-- Success Modal -->
+          <div id="successModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>Purchase Successful!</h2>
+              <p>Thank you for your purchase. Your order is being processed.</p>
+            </div>
+          </div>
+          
+          <!-- Warning Modal for Empty Cart -->
+          <div id="warningModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>No Items in Cart!</h2>
+              <p>Please add items to the cart before making a purchase.</p>
+            </div>
           </div>
 
 
