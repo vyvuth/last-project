@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fast Food</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="gen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><h1>foodix</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Home
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Order</a></li>
+                    <li><a class="dropdown-item" href="#">Pre-order</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Menu List 1</a></li>
+                    <li><a class="dropdown-item" href="#">Menu List 2</a></li>
+                    <li><a class="dropdown-item" href="#">Menu List 3</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">About</a></li>
+                    <li><a class="dropdown-item" href="#">Our History</a></li>
+                    <li><a class="dropdown-item" href="#">Our Chef</a></li>
+                    <li><a class="dropdown-item" href="#">Our Gallery</a></li>
+                    <li><a class="dropdown-item" href="#">FAQs</a></li>
+                    <li><a class="dropdown-item" href="#">Error 404</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Our Shop</a></li>
+                    <li><a class="dropdown-item" href="#">Product Details</a></li>
+                    <li><a class="dropdown-item" href="#">Cart</a></li>
+                    <li><a class="dropdown-item" href="#">Checkout</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Blog
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                    <li><a class="dropdown-item" href="#">Blog Standard</a></li>
+                    <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <div class="d-flex buttoms">
+                <button class="book btn btn-danger text-capitalize mx-2">Book a Table</button>
+                <button class="btn btn-success"><i class="fa-solid fa-cart-shopping"></i></button>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="container-fluid p-0">
+          <div class="row rows align-items-center justify-content-between text-light bg-dark p-4">
+            <div class="col-lg-6 col-md-12 mb-3 mb-lg-0">
+              <h4 class="text-uppercase text-warning fw-bolder">Hot for every Friday</h4>
+              <h1 class="display-4">Sushi Flavors Redefined</h1>
+              <p>Cluckin' Good Chicken Delight: A savory haven for chicken lovers offering meticulously crafted dishes bursting with flavor.</p>
+              <a href="addtocart.html"><button class="order btn btn-danger text-capitalize">Order Now</button></a>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <img src="/images/hot wing.jpg" class="img-fluid" alt="Hot wings">
+            </div>
+          </div>
+        </div>
+      </header>
+      
+      <div class="container mt-5 bg-light rounded rounded-2 ">
+        <div class="row wr">
+          <div class="col-lg-6 col-md-12">
+            <div class="p-3 bg-light"><img src="/images/wing.jpeg" alt=""></div>
+          </div>
+          <div class="rw col-lg-6 col-md-12">
+            <div class="p-3 bg-light">
+                <p class=" text-danger">About Us</p>
+                <h1 class=" text-dark fw-bolder">Where Quality Meet Excelent Service</h1>
+                <p class=" text-secondary">Discover the artistry of Sushi, a symphony of fresh flavors and textures. Our meticulously crafted bites showcase the perfect fusion of tradition...</p>
+                <span class=" text-secondary">Our Sushi offerings are a symphony of fresh, high-quality ingredients meticulously crafted into bite-sized...</span>
+                <div class="icons d-flex justify-content-around mt-5">
+                    <div>
+                        <i class="fa-solid fa-burger"></i>
+                        <h3>Fresh Perspective on Ideal Eating.</h3>
+                        <button class="Read btn btn-danger text-capitalize mt-3">read more</button>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-medal"></i>
+                        <h3>Premium Natural Ingredients.</h3>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class=" container-fluid tabNew">
+        <div class="row news ">
+            <div class=" col-lg-12 text-center">
+                <h6 class=" text-danger text-uppercase fw-bold">Our special menu</h6>
+                <h4 class=" text-dark text-uppercase">Savor Our Sushi Selection</h4>
+                <p>Indulge in an array of meticulously crafted sushi rolls, artfully blending</p>
+                <p>fresh ingredients for a delightful taste experience.</p>
+            </div>
+                <div class="controler col-lg-4 col-md-4  nav nav-fill border border-1 border-danger mt-5 rounded rounded-2 fw-bold">
+                    <button class="sushi" data-bs-toggle="tab" data-bs-target="#sushi">sushi</button>
+                    <button class="pizza" data-bs-toggle="tab" data-bs-target="#pizza">pizza</button>
+                    <button class="burger" data-bs-toggle="tab" data-bs-target="#burger">burger</button>
+                    <button class="steak" data-bs-toggle="tab" data-bs-target="#steak">steak</button>
+                    <button class="chicken" data-bs-toggle="tab" data-bs-target="#chicken">chicken</button>
+                    <button class="cake" data-bs-toggle="tab" data-bs-target="#cake">cake</button>
+                </div>
+
+            <!--tap-->
+            <div class="tab-content">
+                <div id="sushi" class=" tab-pane fade show active">
+                    <div class="row  mt-5 d-flex">
+                        <div class="col-lg-4 col-md-4 mt-5">
+                            <div class="card p-2">
+                                <div class=" card-img-top">
+                                    <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                                </div>
+                                <div class=" card-body">
+                                    <h1 class=" fs-5 text-center text-capitalize">rainbow roll</h1>
+                                    <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                                    <p class=" text-center text-danger fw-bold">$25.50</p>
+                                    <a href="addtocart.html">
+                                      <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 mt-5">
+                            <div class="card p-2">
+                                <div class=" card-img-top">
+                                    <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Tuna-Sushi-Rolls-800x550-1.jpg" alt="">
+                                </div>
+                                <div class=" card-body">
+                                    <h1 class=" fs-5 text-center text-capitalize">tuna sushi roll</h1>
+                                    <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                                    <p class=" text-center text-danger fw-bold">$20.50</p>
+                                    <a href="addtocart.html">
+                                      <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 mt-5">
+                            <div class="card p-2">
+                                <div class=" card-img-top">
+                                    <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/fish.jpg" alt="">
+                                </div>
+                                <div class=" card-body">
+                                    <h1 class=" fs-5 text-center text-capitalize">fish japan roll</h1>
+                                    <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                                    <p class=" text-center text-danger fw-bold">$35.50</p>
+                                    <a href="addtocart.html">
+                                      <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <!--pizza-->
+                  <div id="pizza" class=" tab-pane fade">
+                    <div class="row  mt-5 d-flex">
+                      <div class="col-lg-4 col-md-4 mt-5">
+                        <div class="card p-2">
+                            <div class=" card-img-top">
+                                <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                            </div>
+                            <div class=" card-body">
+                                <h1 class=" fs-5 text-center text-capitalize">pizza roll</h1>
+                                <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                                <p class=" text-center text-danger fw-bold">$25.50</p>
+                                <a href="addtocart.html">
+                                <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                              </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mt-5">
+                      <div class="card p-2">
+                          <div class=" card-img-top">
+                              <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                          </div>
+                          <div class=" card-body">
+                              <h1 class=" fs-5 text-center text-capitalize">pizza roll</h1>
+                              <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                              <p class=" text-center text-danger fw-bold">$25.50</p>
+                              <a href="addtocart.html">
+                                <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 mt-5">
+                    <div class="card p-2">
+                        <div class=" card-img-top">
+                            <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                        </div>
+                        <div class=" card-body">
+                            <h1 class=" fs-5 text-center text-capitalize">pizza roll</h1>
+                            <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                            <p class=" text-center text-danger fw-bold">$25.50</p>
+                            <a href="addtocart.html">
+                              <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                  </div>
+
+                  <!--burger-->
+
+                  <div id="burger" class=" tab-pane fade">
+                    <div class="row mt-5 d-flex">
+                      <div class="col-lg-4 col-md-4 mt-5">
+                        <div class="card p-2">
+                            <div class=" card-img-top">
+                                <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                            </div>
+                            <div class=" card-body">
+                                <h1 class=" fs-5 text-center text-capitalize">burger roll</h1>
+                                <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                                <p class=" text-center text-danger fw-bold">$25.50</p>
+                                <a href="addtocart.html">
+                                  <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mt-5">
+                      <div class="card p-2">
+                          <div class=" card-img-top">
+                              <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                          </div>
+                          <div class=" card-body">
+                              <h1 class=" fs-5 text-center text-capitalize">burger roll</h1>
+                              <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                              <p class=" text-center text-danger fw-bold">$25.50</p>
+                              <a href="addtocart.html">
+                                <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 mt-5">
+                    <div class="card p-2">
+                        <div class=" card-img-top">
+                            <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                        </div>
+                        <div class=" card-body">
+                            <h1 class=" fs-5 text-center text-capitalize">burger roll</h1>
+                            <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                            <p class=" text-center text-danger fw-bold">$25.50</p>
+                            <a href="addtocart.html">
+                              <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                  </div>
+                </div>
+
+                <!--steak-->
+                <div id="steak" class=" tab-pane fade">
+                  <div class=" row mt-5 d-flex">
+                    <div class="col-lg-4 col-md-4 mt-5">
+                      <div class="card p-2">
+                          <div class=" card-img-top">
+                              <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                          </div>
+                          <div class=" card-body">
+                              <h1 class=" fs-5 text-center text-capitalize">steak roll</h1>
+                              <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                              <p class=" text-center text-danger fw-bold">$25.50</p>
+                              <a href="addtocart.html">
+                                <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 mt-5">
+                    <div class="card p-2">
+                        <div class=" card-img-top">
+                            <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                        </div>
+                        <div class=" card-body">
+                            <h1 class=" fs-5 text-center text-capitalize">steak roll</h1>
+                            <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                            <p class=" text-center text-danger fw-bold">$25.50</p>
+                            <a href="addtocart.html">
+                              <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mt-5">
+                  <div class="card p-2">
+                      <div class=" card-img-top">
+                          <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                      </div>
+                      <div class=" card-body">
+                          <h1 class=" fs-5 text-center text-capitalize">steak roll</h1>
+                          <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                          <p class=" text-center text-danger fw-bold">$25.50</p>
+                          <a href="addtocart.html">
+                            <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+                  </div>
+                </div>
+
+                <!--chicken-->
+                <div id="chicken" class=" tab-pane fade">
+                  <div class=" row mt-5 d-flex">
+                    <div class="col-lg-4 col-md-4 mt-5">
+                      <div class="card p-2">
+                          <div class=" card-img-top">
+                              <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                          </div>
+                          <div class=" card-body">
+                              <h1 class=" fs-5 text-center text-capitalize">chicken roll</h1>
+                              <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                              <p class=" text-center text-danger fw-bold">$25.50</p>
+                              <a href="addtocart.html">
+                                <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 mt-5">
+                    <div class="card p-2">
+                        <div class=" card-img-top">
+                            <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                        </div>
+                        <div class=" card-body">
+                            <h1 class=" fs-5 text-center text-capitalize">chicken roll</h1>
+                            <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                            <p class=" text-center text-danger fw-bold">$25.50</p>
+                            <a href="addtocart.html">
+                              <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mt-5">
+                  <div class="card p-2">
+                      <div class=" card-img-top">
+                          <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                      </div>
+                      <div class=" card-body">
+                          <h1 class=" fs-5 text-center text-capitalize">chicken roll</h1>
+                          <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                          <p class=" text-center text-danger fw-bold">$25.50</p>
+                          <a href="addtocart.html">
+                            <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+                  </div>
+                </div>
+
+                <!---cake-->
+                <div id="cake" class=" tab-pane fade">
+                  <div class=" row mt-5 d-flex">
+                    <div class="col-lg-4 col-md-4 mt-5">
+                      <div class="card p-2">
+                          <div class=" card-img-top">
+                              <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                          </div>
+                          <div class=" card-body">
+                              <h1 class=" fs-5 text-center text-capitalize">cake roll</h1>
+                              <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                              <p class=" text-center text-danger fw-bold">$25.50</p>
+                              <a href="addtocart.html">
+                                <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 mt-5">
+                    <div class="card p-2">
+                        <div class=" card-img-top">
+                            <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                        </div>
+                        <div class=" card-body">
+                            <h1 class=" fs-5 text-center text-capitalize">cake roll</h1>
+                            <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                            <p class=" text-center text-danger fw-bold">$25.50</p>
+                            <a href="addtocart.html">
+                              <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mt-5">
+                  <div class="card p-2">
+                      <div class=" card-img-top">
+                          <img width="100%" height="100%" style="object-fit: cover;" class=" rounded rounded-circle p-3" src="/images/Sushi_platter.jpg" alt="">
+                      </div>
+                      <div class=" card-body">
+                          <h1 class=" fs-5 text-center text-capitalize">cake roll</h1>
+                          <p class=" fs-6">A sushi roll with colorful fish slices, usually tuna, salmon, and avocado</p>
+                          <p class=" text-center text-danger fw-bold">$25.50</p>
+                          <a href="addtocart.html">
+                            <button class="add btn btn-light text-capitalize p-2 w-100 border border-success">add to cart</button>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+                  </div>
+                </div>
+            </div>
+    </div>
+  </div>
+        <!--delivery side-->
+        <div class=" container-fluid  bg-success p-4">
+          <div class="row d-flex justify-content-around p-4">
+            <div class=" col-lg-6 col-md-12 mb-3 mb-lg-0 delivery">
+              <h2 class=" text-light fw-bold fs-5 mx-4">Fast delivery!</h2>
+              <h1 class=" text-light fw-bold fs-1 mx-4">Fast Sushi Delivery Guaranteed</h1>
+              <p class=" text-light mt-3 mx-4 fw-normal fs-6">We promise prompt delivery of our delicious sushi, ensuring it arrives swiftly, fresh, and guaranteed to delight your taste buds.</p>
+              <div class=" d-flex justify-content-around mt-4">
+                <div class="box1 mt-4">
+                  <div><i class="fa-solid fa-users text-light fs-1 mx-3"></i></div>
+                  <h6 class=" mt-4 text-light mx-3">Arrives within 30 minutes or less, guaranteed!</h6>
+                </div>
+                <div class="box2 mt-4">
+                  <div><i class="fa-solid fa-truck text-light fs-1 mx-3"></i></div>
+                  <h6 class=" mt-4 text-light mx-3">Enjoy free shipping on orders over 85%.</h6>
+                </div>
+              </div>
+              <a href="addtocart.html"><button class=" order btn btn-danger text-light text-capitalize mx-3 p-2 mt-3">order now</button></a>
+            </div>
+            <div class=" col-lg-6 col-md-12 deliveries">
+              <div><img width="100%" height="100%" src="/images/deliver.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+
+        <!--latest menu-->
+        <div class=" container-fluid bg-light">
+          <div class="row mt-5 p-5">
+            <div class="col-lg-12 col-md-12 p-5">
+              <h2 class=" text-danger fs-5 text-center text-capitalize">Our Latest menu</h2>
+              <h1 class=" text-dark fs-1 fw-bold text-center text-capitalize">Today best offer</h1>
+              <p class=" text-center">Indulge in an array of meticulously crafted sushi rolls, artfully blending</p>
+              <p class=" text-center">fresh ingredients for a delightful taste experience.</p>
+            </div>
+          </div>
+            <div class=" row p-5">
+            <div class=" col-lg-6 col-md-12">
+              <div class=" d-flex justify-content-between">
+                <h3 class=" text-dark fw-bold fs-3">Rainbow Sushi</h3>
+                <h3 class=" text-danger fw-bold">$59.00</h3>
+              </div>
+              <p class=" text-secondary opacity-75">A vibrant medley of fresh fish atop a bed of seasoned rice, creating stunning and delicious Rainbow Sushi.</p>
+              <hr>
+
+              <div class=" d-flex justify-content-between mt-5">
+                <h3 class=" text-dark fw-bold fs-3">Octopus Sushi</h3>
+                <h3 class=" text-danger fw-bold">$59.00</h3>
+              </div>
+              <p class=" text-secondary opacity-75">A vibrant medley of fresh fish atop a bed of seasoned rice, creating stunning and delicious Rainbow Sushi.</p>
+              <hr>
+
+              <div class=" d-flex justify-content-between mt-5">
+                <h3 class=" text-dark fw-bold fs-3">Spicy Tuna Shushi</h3>
+                <h3 class=" text-danger fw-bold">$59.00</h3>
+              </div>
+              <p class=" text-secondary opacity-75">A vibrant medley of fresh fish atop a bed of seasoned rice, creating stunning and delicious Rainbow Sushi.</p>
+              <hr>
+
+              <div class=" d-flex justify-content-between mt-5">
+                <h3 class=" text-dark fw-bold fs-3">Salmon Nigiri</h3>
+                <h3 class=" text-danger fw-bold">$59.00</h3>
+              </div>
+              <p class=" text-secondary opacity-75">A vibrant medley of fresh fish atop a bed of seasoned rice, creating stunning and delicious Rainbow Sushi.</p>
+              <hr>
+            </div>
+            <div class=" col-lg-6 col-md-12">
+              <img width="100%" height="100%" style="object-fit: cover; border-radius:15px;" src="/images/featured-sushi-2b-feature-sushi-2b-1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!--footer page-->
+        <div class="container-fluid mt-5 bg-dark">
+          <div class="row text-light p-5">
+            <div class="col-lg-3 col-md-3">
+                <h1 class="fx">foodix</h1>
+                <p class=" mt-3 fs-5 fw-light text-secondary">Discover culinary delights recipes and inspiration in our delightful food haven..</p>
+                <div class="coni">
+                  <a  href="#"><i class="fab fa-facebook fs-3  text-center"></i></a>
+                  <a href="#"><i class="fab fa-twitter fs-3  mx-3"></i></a>
+                  <a href="#"><i class="fab fa-instagram fs-3 "></i></a>
+                  <a href="#"><i class="fab fa-youtube fs-3  mx-3"></i></a>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-md-3">
+              <h1 class=" mt-3 fs-3">Contact Us</h1>
+              <p class=" mt-4 fs-6 fw-light text-secondary">1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+              <p class=" fs-6 fw-light text-secondary">Phone: (808) 123-4567</p>
+              <p class=" fs-6 fw-light text-secondary">Email:  info@foodix.com</p>
+            </div>
+            <div class=" col-lg-3 col-md-3">
+              <h1 class=" mt-3 fs-3">Follow Us</h1>
+              <p class="fs-6 fw-light text-secondary mt-4">Stay updated with our latest news and special offers.</p>
+              <form>
+                <input class=" form-control" type="email" placeholder="Enter your email address">
+                <button type="submit" class="btn btn-light mt-2 text-dark">Subscribe</button>
+              </form>
+            </div>
+            <div class=" col-lg-3 col-md-3">
+              <h1 class=" mt-3 fs-3">Opening time</h1>
+              <p class=" fs-6 fw-light text-secondary mt-4">Mon-Fri: 11:00 AM - 10:00 PM</p>
+              <p class=" fs-6 fw-light text-secondary">Sat-Sun: 10:00 AM - 11:00 PM</p>
+              <p class=" fs-6 fw-light text-secondary">Holidays: Closed</p>
+            </div>
+          </div>
+          <!--credit-->
+          <div>
+            <div class="row text-center p-3">
+              <p class="fs-6 fw-light text-secondary">Copyright © 2024 foodix. All rights reserved.</p>
+              <p class=" fs-6 fw-light text-secondary text-capitalize">developer: <span class=" text-uppercase">vuth vy</span></p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
